@@ -7,6 +7,11 @@ import Image from 'next/image';
 import Head from 'next/head';
 
 const About = () => {
+
+  // useEffect(()=>{
+  //   //make api call
+  // })
+
   return (
     <>
     <Head>

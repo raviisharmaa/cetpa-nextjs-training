@@ -7,8 +7,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // }
 
 function MyApp({ Component, pageProps }) {
+  console.log('pageProps',pageProps);
   return (
-      <Layout>
+      <Layout footerstatus={pageProps.footerstatus}>
           <Component {...pageProps} />
       </Layout>
     )
