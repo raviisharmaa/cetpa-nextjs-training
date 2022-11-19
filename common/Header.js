@@ -19,7 +19,7 @@ const Header = () => {
             <Navbar />
           </div>
           <div class="col-3">
-
+            <Head2/>
           </div>
           <div class="col-2">
 
