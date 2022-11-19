@@ -2,7 +2,7 @@ import React from 'react'
 
 const Head3 = () => {
   return (
-    <div className='col-3'>
+    <div>
         login button
     </div>
   )

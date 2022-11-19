@@ -7,7 +7,7 @@ import Head from 'next/head';
 
 const Head1 = () => {
   return (
-    <div className='col-6'>
+    <div>
         <Image src='/logo.png' width={75} height={50}/>
     </div>
   )
