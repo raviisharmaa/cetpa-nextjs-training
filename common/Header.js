@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 
 const Header = () => {
   return (
-    <div className='bg-success bg-opacity-50'>
+    <div>
       <div class="container">
         <div class="row">          
           <div class="col-2">
