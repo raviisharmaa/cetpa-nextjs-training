@@ -10,12 +10,12 @@ const Layout = (props) => {
     <>
         {true ? (<div>
             <Header/>
-            <Navbar />
+            
             {children}
             {!footerstatus && (<Footer />) }
         </div>): (<div>
             <Header/>
-            <Navbar />
+            
             {children}
             {!footerstatus && (<Footer />) }
           </div>
