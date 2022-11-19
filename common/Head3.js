@@ -3,7 +3,9 @@ import React from 'react'
 const Head3 = () => {
   return (
     <div>
-        login button
+        <form action="#" method="post">
+          <button type="submit">Login</button>
+        </form>
     </div>
   )
 }

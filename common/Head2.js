@@ -4,7 +4,7 @@ const Head2 = () => {
   return (
     <div>
       {/* <h2>search bar</h2> */}
-      <form action="/send-data-here" method="post">
+      <form action="#" method="post">
         <input type="text" id="search-bar" name="search-bar" placeholder="searchbar" />
       </form>
     </div>
