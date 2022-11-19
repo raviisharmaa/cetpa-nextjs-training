@@ -5,10 +5,14 @@ import Head3 from './Head3';
 
 const Header = () => {
   return (
-    <div className='row bg-success bg-opacity-50'>
-        <Head1/>
-        <Head2/>
-        <Head3/>
+    <div className='bg-success bg-opacity-50'>
+      <div class="container">
+        <div class="row">
+          <Head1/>
+          <Head2/>
+          <Head3/>
+        </div>        
+      </div>
     </div>
   )
 }

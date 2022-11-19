@@ -8,12 +8,12 @@ const Layout = (props) => {
   console.log('footerstatus', footerstatus);
   return (
     <>
-        {true ? (<div className='container'>
+        {true ? (<div>
             <Header/>
             <Navbar />
             {children}
             {!footerstatus && (<Footer />) }
-        </div>): (<div className='container'>
+        </div>): (<div>
             <Header/>
             <Navbar />
             {children}
