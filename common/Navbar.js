@@ -3,7 +3,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className='bg-light'>
+    <div>
 
       <div class="container">
         <div class="row">
