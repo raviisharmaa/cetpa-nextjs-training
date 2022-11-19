@@ -8,10 +8,7 @@ const Header = () => {
   return (
     <div className='bg-success bg-opacity-50'>
       <div class="container">
-        <div class="row">
-          {/* <Head1/>
-          <Head2/>
-          <Head3/> */}
+        <div class="row">          
           <div class="col-2">
             <Head1/>
           </div>
@@ -22,7 +19,7 @@ const Header = () => {
             <Head2/>
           </div>
           <div class="col-2">
-
+            <Head3/>
           </div>
         </div>        
       </div>
