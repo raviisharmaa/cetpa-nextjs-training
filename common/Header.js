@@ -3,10 +3,11 @@ import Head1 from './Head1';
 import Head2 from './Head2';
 import Head3 from './Head3';
 import Navbar from './Navbar';
+import styles from '../styles/Header.module.css';
 
 const Header = () => {
   return (
-    <div>
+    <div className={styles.Header_area}>
       <div class="container">
         <div class="row">          
           <div class="col-2">
