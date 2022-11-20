@@ -10,10 +10,10 @@ const Header = () => {
     <div className={styles.Header_area}>
       <div class="container">
         <div class="row">          
-          <div class="col-2">
+          <div class="col-1">
             <Head1/>
           </div>
-          <div class="col-5">
+          <div class="col-6">
             <Navbar />
           </div>
           <div class="col-3">
