@@ -31,15 +31,25 @@ const Products = (props) => {
                             <div class="col-sm-3">
                                 {/* <productitem /> */}
                                 
+                                <div className="product-view">
+                                    <div class="product-img">
+                                        <Image src='/bag.jpg' width={210} height={280}/>
+                                    </div>
+                                    <div className="product-details">
+                                        <h3>american tourister</h3>
+                                        <h4>Kansas 57 Cabin Trolley</h4>
+                                        <h5>Rs. 2799 <span>Rs 7180</span> <span>(Rs 4381 OFF)</span> </h5>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-sm-3">
-                                <productitem />
+                                {/* <productitem /> */}
                             </div>
                             <div class="col-sm-3">
-                                <productitem />
+                                {/* <productitem /> */}
                             </div>
                             <div class="col-sm-3">
-                                <productitem />
+                                {/* <productitem /> */}
                             </div>
                         </div>
                     </div>
