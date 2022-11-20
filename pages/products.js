@@ -20,10 +20,29 @@ const Products = (props) => {
     const {productData} = props;
     return(
         <div>
-            <h2>This is Products file.</h2>
-            {productData.map(item => (
-                <div>{item.title}</div>
-            ))}
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        Upcoming filter area
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                product area
+                            </div>
+                            <div class="col-sm-3">
+                                product area
+                            </div>
+                            <div class="col-sm-3">
+                                product area
+                            </div>
+                            <div class="col-sm-3">
+                                product area
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
