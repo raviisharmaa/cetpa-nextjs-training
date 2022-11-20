@@ -31,9 +31,9 @@ const Products = (props) => {
                             <div class="col-sm-3">
                                 {/* <productitem /> */}
                                 
-                                <div className="product-view">
+                                <div  className={styles.product_view}>
                                     <div class="product-img">
-                                        <Image src='/bag.jpg' width={210} height={280}/>
+                                        <Image src='/bag.jpg' width={175} height={250}/>
                                     </div>
                                     <div className="product-details">
                                         <h3 className={styles.product_title}>american tourister</h3>
@@ -45,15 +45,144 @@ const Products = (props) => {
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                             <div class="col-sm-3">
                                 {/* <productitem /> */}
+
+                                <div  className={styles.product_view}>
+                                    <div class="product-img">
+                                        <Image src='/bag.jpg' width={175} height={250}/>
+                                    </div>
+                                    <div className="product-details">
+                                        <h3 className={styles.product_title}>american tourister</h3>
+                                        <h4 className={styles.product_desc}>Kansas 57 Cabin Trolley</h4>
+                                        <div>
+                                            <span className={styles.product_rp}>Rs. 2799</span> 
+                                            <span className={styles.product_dp}>Rs 7180</span> 
+                                            <span className={styles.product_off}>(Rs 4381 OFF)</span> 
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                             <div class="col-sm-3">
                                 {/* <productitem /> */}
+
+                                <div  className={styles.product_view}>
+                                    <div class="product-img">
+                                        <Image src='/bag.jpg' width={175} height={250}/>
+                                    </div>
+                                    <div className="product-details">
+                                        <h3 className={styles.product_title}>american tourister</h3>
+                                        <h4 className={styles.product_desc}>Kansas 57 Cabin Trolley</h4>
+                                        <div>
+                                            <span className={styles.product_rp}>Rs. 2799</span> 
+                                            <span className={styles.product_dp}>Rs 7180</span> 
+                                            <span className={styles.product_off}>(Rs 4381 OFF)</span> 
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                             <div class="col-sm-3">
                                 {/* <productitem /> */}
+
+                                <div className={styles.product_view}>
+                                    <div class="product-img">
+                                        <Image src='/bag.jpg' width={175} height={250}/>
+                                    </div>
+                                    <div className="product-details">
+                                        <h3 className={styles.product_title}>american tourister</h3>
+                                        <h4 className={styles.product_desc}>Kansas 57 Cabin Trolley</h4>
+                                        <div>
+                                            <span className={styles.product_rp}>Rs. 2799</span> 
+                                            <span className={styles.product_dp}>Rs 7180</span> 
+                                            <span className={styles.product_off}>(Rs 4381 OFF)</span> 
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-3">
+                                {/* <productitem /> */}
+
+                                <div className={styles.product_view}>
+                                    <div class="product-img">
+                                        <Image src='/bag.jpg' width={175} height={250}/>
+                                    </div>
+                                    <div className="product-details">
+                                        <h3 className={styles.product_title}>american tourister</h3>
+                                        <h4 className={styles.product_desc}>Kansas 57 Cabin Trolley</h4>
+                                        <div>
+                                            <span className={styles.product_rp}>Rs. 2799</span> 
+                                            <span className={styles.product_dp}>Rs 7180</span> 
+                                            <span className={styles.product_off}>(Rs 4381 OFF)</span> 
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-3">
+                                {/* <productitem /> */}
+
+                                <div className={styles.product_view}>
+                                    <div class="product-img">
+                                        <Image src='/bag.jpg' width={175} height={250}/>
+                                    </div>
+                                    <div className="product-details">
+                                        <h3 className={styles.product_title}>american tourister</h3>
+                                        <h4 className={styles.product_desc}>Kansas 57 Cabin Trolley</h4>
+                                        <div>
+                                            <span className={styles.product_rp}>Rs. 2799</span> 
+                                            <span className={styles.product_dp}>Rs 7180</span> 
+                                            <span className={styles.product_off}>(Rs 4381 OFF)</span> 
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-3">
+                                {/* <productitem /> */}
+
+                                <div className={styles.product_view}>
+                                    <div class="product-img">
+                                        <Image src='/bag.jpg' width={175} height={250}/>
+                                    </div>
+                                    <div className="product-details">
+                                        <h3 className={styles.product_title}>american tourister</h3>
+                                        <h4 className={styles.product_desc}>Kansas 57 Cabin Trolley</h4>
+                                        <div>
+                                            <span className={styles.product_rp}>Rs. 2799</span> 
+                                            <span className={styles.product_dp}>Rs 7180</span> 
+                                            <span className={styles.product_off}>(Rs 4381 OFF)</span> 
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-3">
+                                {/* <productitem /> */}
+
+                                <div className={styles.product_view}>
+                                    <div class="product-img">
+                                        <Image src='/bag.jpg' width={175} height={250}/>
+                                    </div>
+                                    <div className="product-details">
+                                        <h3 className={styles.product_title}>american tourister</h3>
+                                        <h4 className={styles.product_desc}>Kansas 57 Cabin Trolley</h4>
+                                        <div>
+                                            <span className={styles.product_rp}>Rs. 2799</span> 
+                                            <span className={styles.product_dp}>Rs 7180</span> 
+                                            <span className={styles.product_off}>(Rs 4381 OFF)</span> 
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
