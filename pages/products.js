@@ -5,6 +5,7 @@ import Navbar from '../common/Navbar';
 import styles from '../styles/About.module.css';
 import Image from 'next/image';
 import Head from 'next/head';
+import productitem from '../component/productitem';
 
 export const getStaticProps = async () => {
     //api call
@@ -28,16 +29,17 @@ const Products = (props) => {
                     <div class="col-sm-9">
                         <div class="row">
                             <div class="col-sm-3">
-                                product area
+                                {/* <productitem /> */}
+                                
                             </div>
                             <div class="col-sm-3">
-                                product area
+                                <productitem />
                             </div>
                             <div class="col-sm-3">
-                                product area
+                                <productitem />
                             </div>
                             <div class="col-sm-3">
-                                product area
+                                <productitem />
                             </div>
                         </div>
                     </div>
