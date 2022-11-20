@@ -16,22 +16,22 @@ const Navbar = () => {
               </button> */}
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
+                  <li className={styles.nav_item}>
                     <Link className={styles.navbar_link} href="/">Home</Link>
                   </li>
-                  <li class="nav-item">
+                  <li  className={styles.nav_item}>
                     <Link className={styles.navbar_link} href="/about">About</Link>
                   </li>
-                  <li class="nav-item">
+                  <li  className={styles.nav_item}>
                     <Link className={styles.navbar_link} href="/courses">Courses</Link>
                   </li>
-                  <li class="nav-item">
+                  <li  className={styles.nav_item}>
                     <Link className={styles.navbar_link} href="/products">Products</Link>
                   </li>
-                  <li class="nav-item">
+                  <li  className={styles.nav_item}>
                     <Link className={styles.navbar_link} href="/facilities">Facilities</Link>
                   </li>
-                  <li class="nav-item">
+                  <li  className={styles.nav_item}>
                     <Link className={styles.navbar_link} href="/contact">Contact</Link>
                   </li>
                 </ul>
