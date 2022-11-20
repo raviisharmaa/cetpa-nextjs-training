@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import styles from '../styles/Logincta.module.css';
 
 const Head3 = () => {
   return (
     <div>
         <form action="#" method="post">
-          <button type="submit">Login</button>
+          <button type="submit" className={styles.login_cta}>Login</button>
         </form>
     </div>
   )
