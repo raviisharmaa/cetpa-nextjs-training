@@ -24,7 +24,9 @@ const Products = (props) => {
             <div class="container">
                 <div class="row">
                     <div class="col-sm-3">
-                        Upcoming filter area
+                        <div className={styles.filter_view}>
+                            Upcoming filter area
+                        </div>                        
                     </div>
                     <div class="col-sm-9">
                         <div class="row">
