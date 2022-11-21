@@ -8,7 +8,7 @@ import Head from 'next/head';
 const Head1 = () => {
   return (
     <div>
-        <Image src='/logo.png' width={75} height={50}/>
+        <Image src='/logo.png' width={75} height={50} alt="img"/>
     </div>
   )
 }
