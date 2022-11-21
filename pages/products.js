@@ -25,7 +25,7 @@ const Product = (props) => {
                         {productData.map(item => (
                             <div className={[style.product_view, "col-sm-3"].join(" ")} key={item.id}>
                                 <div className = {style.product_wrap}>
-                                    <Image className = {style.product_img} src="/bag.jpg" width={185} height={200} alt={item.title}></Image>
+                                    <Image className = {style.product_img} src={item.image} width={185} height={200} alt={item.title}></Image>
                                     <h3 className = {style.product_title}>{item.title}</h3>
                                     <h4 className = {style.product_desc}>{item.description}</h4>
                                     <h5 className = {style.product_rp}>{"Rs." + item.price}</h5>
