@@ -1,5 +1,7 @@
 import React from "react";
 
+
+//ssg
 export const getStaticProps = async () => {
     //api call
     const response = await fetch('https://fakestoreapi.com/products')

@@ -12,7 +12,9 @@ const NotFound = () => {
   },[]);
 
   return (
-    <h2>Page Not found, please check your url.</h2>
+    <div className='container'>
+      <h2>Page Not found, please check your url.</h2>
+    </div>
   )
 }
 

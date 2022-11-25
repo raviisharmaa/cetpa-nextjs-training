@@ -5,7 +5,7 @@ import Navbar from '../common/Navbar';
 
 const Contact = () => {
     return(
-        <div>
+        <div className='container'>
             <h2>This is contact file.</h2>
         </div>
     )
